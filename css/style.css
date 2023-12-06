@@ -1,0 +1,46 @@
+/* reset */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* style */
+:root {
+	font-family: 'arial';
+}
+html, body{
+	font-size: 10px;
+}
+body{
+	background: #000 url("../images/background.png") no-repeat top center /cover;
+	height: 100vh;
+}
+div{
+	width: 700px;
+	margin: 30px auto 0;
+	border-radius: 10px;
+	background: url("../images/cover03.png") no-repeat top center /cover;
+	padding: 30px;
+	color: #fff;
+	text-align: center;
+}
+img{
+	border: 5px solid #fff;
+	display: block;
+	margin: 20px auto;
+	border-radius: 99px / 42px;
+}
+h1{
+	font-size: 8rem;
+	margin-bottom: 30px;
+	letter-spacing: 2px;
+}
+p{
+	font-size: 1.8rem;
+	border-top: 2px solid #fff;
+	width: fit-content;
+	margin: auto;
+	line-height: 2;
+	letter-spacing: 4px;
+}
